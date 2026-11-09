@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: Iterate.CyberduckCLI
+PackageVersion: 9.6.0.46406
+InstallerLocale: en-US
+InstallerType: wix
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/iterate-ch/cyberduck/releases/download/release-9-6-0/duck-9.6.0.46406-x64.msi
+  InstallerSha256: 02E08D0A172158DB6CE947C02CA178E2A9FE54EEE6E4A862784BAE2A88FFD17D
+- Architecture: arm64
+  InstallerUrl: https://github.com/iterate-ch/cyberduck/releases/download/release-9-6-0/duck-9.6.0.46406-arm64.msi
+  InstallerSha256: 58802D77E268CF10ED92F7A6F140D9E131C21EAF962B2BE09019A3CDFB700B8D
+ManifestType: installer
+ManifestVersion: 1.10.0
